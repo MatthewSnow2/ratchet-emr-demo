@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ratchet-emr": {
+      "command": "python",
+      "args": ["-m", "ratchet_server.server"],
+      "cwd": "/path/to/ratchet-emr-demo",
+      "env": {
+        "PYTHONPATH": "/path/to/ratchet-emr-demo"
+      }
+    }
+  }
+}

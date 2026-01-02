@@ -1,0 +1,204 @@
+{
+  "service_codes": [
+    {
+      "code": "SN00",
+      "description": "Start of Care",
+      "visit_type": "Initial admission",
+      "discipline": "RN",
+      "category": "admission"
+    },
+    {
+      "code": "SN01",
+      "description": "Evaluation",
+      "visit_type": "Add-on discipline evaluation",
+      "discipline": "RN",
+      "category": "evaluation"
+    },
+    {
+      "code": "SN04",
+      "description": "Transition Recert",
+      "visit_type": "Recertification",
+      "discipline": "RN",
+      "category": "recertification"
+    },
+    {
+      "code": "SN11",
+      "description": "Subsequent Visit",
+      "visit_type": "Routine follow-up",
+      "discipline": "RN",
+      "category": "routine"
+    },
+    {
+      "code": "ROC",
+      "description": "Resumption of Care",
+      "visit_type": "Post-hospitalization",
+      "discipline": "RN",
+      "category": "readmission"
+    },
+    {
+      "code": "D/C",
+      "description": "Discharge",
+      "visit_type": "Episode end",
+      "discipline": "RN",
+      "category": "discharge"
+    },
+    {
+      "code": "PT00",
+      "description": "PT Start of Care",
+      "visit_type": "PT Initial admission",
+      "discipline": "PT",
+      "category": "admission"
+    },
+    {
+      "code": "PT01",
+      "description": "PT Evaluation",
+      "visit_type": "Physical therapy initial",
+      "discipline": "PT",
+      "category": "evaluation"
+    },
+    {
+      "code": "PT11",
+      "description": "PT Subsequent",
+      "visit_type": "Physical therapy follow-up",
+      "discipline": "PT",
+      "category": "routine"
+    },
+    {
+      "code": "OT01",
+      "description": "OT Evaluation",
+      "visit_type": "Occupational therapy initial",
+      "discipline": "OT",
+      "category": "evaluation"
+    },
+    {
+      "code": "OT11",
+      "description": "OT Subsequent",
+      "visit_type": "Occupational therapy follow-up",
+      "discipline": "OT",
+      "category": "routine"
+    },
+    {
+      "code": "ST01",
+      "description": "ST Evaluation",
+      "visit_type": "Speech therapy initial",
+      "discipline": "ST",
+      "category": "evaluation"
+    },
+    {
+      "code": "ST11",
+      "description": "ST Subsequent",
+      "visit_type": "Speech therapy follow-up",
+      "discipline": "ST",
+      "category": "routine"
+    },
+    {
+      "code": "HHA",
+      "description": "Home Health Aide",
+      "visit_type": "Aide services",
+      "discipline": "HHA",
+      "category": "aide"
+    },
+    {
+      "code": "MSW01",
+      "description": "MSW Evaluation",
+      "visit_type": "Social work initial",
+      "discipline": "MSW",
+      "category": "evaluation"
+    },
+    {
+      "code": "MSW11",
+      "description": "MSW Subsequent",
+      "visit_type": "Social work follow-up",
+      "discipline": "MSW",
+      "category": "routine"
+    }
+  ],
+  "visit_statuses": [
+    {
+      "code": "P",
+      "status": "Pending",
+      "color": "#FFA000",
+      "description": "Visit scheduled but not yet accepted"
+    },
+    {
+      "code": "A",
+      "status": "Accepted",
+      "color": "#FF6D00",
+      "description": "Clinician has accepted the visit"
+    },
+    {
+      "code": "C",
+      "status": "Complete",
+      "color": "#4CAF50",
+      "description": "Visit documentation completed"
+    },
+    {
+      "code": "L",
+      "status": "Late",
+      "color": "#D32F2F",
+      "description": "Visit past scheduled time, not started"
+    },
+    {
+      "code": "I",
+      "status": "Incomplete",
+      "color": "#FF9800",
+      "description": "Visit started but documentation incomplete"
+    },
+    {
+      "code": "M",
+      "status": "Missed",
+      "color": "#4CAF50",
+      "description": "Visit did not occur - documented"
+    },
+    {
+      "code": "D",
+      "status": "Declined",
+      "color": "#4CAF50",
+      "description": "Patient declined visit"
+    },
+    {
+      "code": "R",
+      "status": "Rescheduled",
+      "color": "#4CAF50",
+      "description": "Visit moved to different date/time"
+    },
+    {
+      "code": "N",
+      "status": "Non-Admit",
+      "color": "#4CAF50",
+      "description": "Patient not admitted after evaluation"
+    }
+  ],
+  "disciplines": [
+    {
+      "code": "RN",
+      "name": "Registered Nurse",
+      "full_name": "Skilled Nursing"
+    },
+    {
+      "code": "PT",
+      "name": "Physical Therapist",
+      "full_name": "Physical Therapy"
+    },
+    {
+      "code": "OT",
+      "name": "Occupational Therapist",
+      "full_name": "Occupational Therapy"
+    },
+    {
+      "code": "ST",
+      "name": "Speech Therapist",
+      "full_name": "Speech Therapy"
+    },
+    {
+      "code": "HHA",
+      "name": "Home Health Aide",
+      "full_name": "Home Health Aide"
+    },
+    {
+      "code": "MSW",
+      "name": "Medical Social Worker",
+      "full_name": "Social Work"
+    }
+  ]
+}

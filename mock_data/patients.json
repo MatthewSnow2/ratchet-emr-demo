@@ -1,0 +1,938 @@
+{
+  "patients": [
+    {
+      "patient_id": "PT-10001",
+      "demographics": {
+        "first_name": "Beth",
+        "last_name": "Morrison",
+        "preferred_name": "Beth",
+        "dob": "1945-03-15",
+        "age": 80,
+        "gender": "F",
+        "ssn_last_four": "4521",
+        "address": {
+          "street": "742 Maple Lane",
+          "city": "Nashville",
+          "state": "TN",
+          "zip": "37211",
+          "county": "Davidson",
+          "directions": "Blue house with white shutters. Park in driveway. Dog is friendly."
+        },
+        "phone_home": "615-555-0142",
+        "phone_cell": "615-555-0198",
+        "language": "English",
+        "marital_status": "Widowed",
+        "emergency_contact": {
+          "name": "Michael Morrison",
+          "relationship": "Son",
+          "phone": "615-555-0198",
+          "is_poa": true,
+          "is_caregiver": false
+        },
+        "caregiver": {
+          "name": "Sandra Morrison",
+          "relationship": "Daughter-in-law",
+          "phone": "615-555-0199",
+          "availability": "Weekday afternoons",
+          "lives_with_patient": false
+        }
+      },
+      "insurance": {
+        "primary": {
+          "payer": "Medicare",
+          "plan": "Medicare Part A",
+          "member_id": "1EG4-TE5-MK72"
+        },
+        "secondary": {
+          "payer": "AARP Medicare Supplement",
+          "plan": "Plan G",
+          "member_id": "AARP-445521"
+        }
+      },
+      "episode": {
+        "episode_id": "EP-2025-0115",
+        "soc_date": "2025-01-15",
+        "certification_period": {
+          "start": "2025-01-15",
+          "end": "2025-03-15"
+        },
+        "referral_source": "Vanderbilt Medical Center",
+        "referring_physician": {
+          "name": "Dr. Sarah Chen",
+          "npi": "1234567890",
+          "phone": "615-555-3000",
+          "specialty": "Cardiology"
+        },
+        "admission_reason": "CHF exacerbation with hospitalization",
+        "status": "active"
+      },
+      "diagnoses": [
+        {
+          "icd10": "I50.9",
+          "description": "Heart failure, unspecified",
+          "onset_type": "exacerbation",
+          "onset_date": "2025-01-10",
+          "symptom_control": "controlled",
+          "is_primary": true,
+          "is_treated": true
+        },
+        {
+          "icd10": "I10",
+          "description": "Essential (primary) hypertension",
+          "onset_type": "onset",
+          "onset_date": "2018-05-01",
+          "is_primary": false,
+          "is_treated": true
+        },
+        {
+          "icd10": "E11.9",
+          "description": "Type 2 diabetes mellitus without complications",
+          "onset_type": "onset",
+          "onset_date": "2019-08-15",
+          "is_primary": false,
+          "is_treated": true
+        },
+        {
+          "icd10": "I25.10",
+          "description": "Atherosclerotic heart disease of native coronary artery",
+          "onset_type": "onset",
+          "onset_date": "2020-02-01",
+          "is_primary": false,
+          "is_treated": false
+        }
+      ],
+      "medications": [
+        {
+          "med_id": "MED-001",
+          "name": "Lisinopril",
+          "dose": "10",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "daily",
+          "times": [
+            "08:00"
+          ],
+          "purpose": "Blood pressure, heart protection",
+          "prescriber": "Dr. Sarah Chen",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-002",
+          "name": "Furosemide",
+          "dose": "40",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "daily",
+          "times": [
+            "08:00"
+          ],
+          "purpose": "Remove excess fluid",
+          "prescriber": "Dr. Sarah Chen",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-003",
+          "name": "Metformin",
+          "dose": "500",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "BID",
+          "times": [
+            "08:00",
+            "18:00"
+          ],
+          "purpose": "Blood sugar control",
+          "prescriber": "Dr. James Wilson",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-004",
+          "name": "Metoprolol Succinate ER",
+          "dose": "25",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "daily",
+          "times": [
+            "08:00"
+          ],
+          "purpose": "Heart rate control",
+          "prescriber": "Dr. Sarah Chen",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-005",
+          "name": "Aspirin",
+          "dose": "81",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "daily",
+          "times": [
+            "08:00"
+          ],
+          "purpose": "Heart protection",
+          "prescriber": "Dr. Sarah Chen",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-006",
+          "name": "Potassium Chloride",
+          "dose": "20",
+          "unit": "mEq",
+          "route": "PO",
+          "frequency": "daily",
+          "times": [
+            "08:00"
+          ],
+          "purpose": "Replace potassium lost from diuretic",
+          "prescriber": "Dr. Sarah Chen",
+          "status": "active"
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Penicillin",
+          "reaction": "Rash, hives",
+          "severity": "moderate"
+        },
+        {
+          "allergen": "Sulfa drugs",
+          "reaction": "Difficulty breathing",
+          "severity": "severe"
+        }
+      ],
+      "care_plan": {
+        "poc_485": {
+          "verbal_soc_date": "2025-01-14",
+          "physician_signature_date": "2025-01-16",
+          "visit_frequency": {
+            "skilled_nursing": "3W2, 2W2, 1W4",
+            "pt": "2W2, 1W4",
+            "hha": "3W4"
+          },
+          "nutritional_requirements": "Low sodium diet (2g/day), fluid restriction 2L/day, diabetic diet",
+          "functional_limitations": [
+            "Ambulation",
+            "Endurance",
+            "Bathing"
+          ],
+          "activities_permitted": [
+            "Up as tolerated",
+            "Exercise per PT"
+          ],
+          "mental_status": [
+            "Oriented",
+            "Forgetful"
+          ],
+          "prognosis": "Fair",
+          "safety_measures": [
+            "Fall precautions",
+            "Daily weights",
+            "Report weight gain >2lbs/day or 5lbs/week"
+          ],
+          "discharge_plans": "Discharge to self-care when patient demonstrates understanding of CHF management and is medically stable"
+        },
+        "problem_statements": [
+          {
+            "ps_id": "PS-001",
+            "pathway": "CHF Disease Management",
+            "problem": "Alteration in cardiac output related to heart failure",
+            "goals": [
+              {
+                "goal_id": "G-001",
+                "text": "Patient will maintain weight within 3 lbs of dry weight of 165 lbs",
+                "target_date": "2025-03-15",
+                "status": "in_progress"
+              },
+              {
+                "goal_id": "G-002",
+                "text": "Patient will verbalize 3 symptoms of CHF exacerbation requiring MD notification",
+                "target_date": "2025-02-01",
+                "status": "met",
+                "met_date": "2025-01-22"
+              }
+            ],
+            "interventions": [
+              {
+                "int_id": "INT-001",
+                "text": "Assess cardiovascular status including vital signs, heart sounds, edema, JVD",
+                "frequency": "Every visit"
+              },
+              {
+                "int_id": "INT-002",
+                "text": "Weigh patient and compare to baseline dry weight",
+                "frequency": "Every visit"
+              },
+              {
+                "int_id": "INT-003",
+                "text": "Instruct patient/caregiver on CHF disease process and management",
+                "frequency": "PRN"
+              },
+              {
+                "int_id": "INT-004",
+                "text": "Instruct on importance of daily weights and when to call MD",
+                "frequency": "PRN"
+              }
+            ]
+          },
+          {
+            "ps_id": "PS-002",
+            "pathway": "Medication Management",
+            "problem": "Knowledge deficit related to medication regimen",
+            "goals": [
+              {
+                "goal_id": "G-003",
+                "text": "Patient/caregiver will demonstrate understanding of purpose and side effects of all medications",
+                "target_date": "2025-02-15",
+                "status": "in_progress"
+              }
+            ],
+            "interventions": [
+              {
+                "int_id": "INT-005",
+                "text": "Review all medications including purpose, dose, frequency, and side effects",
+                "frequency": "Every visit"
+              },
+              {
+                "int_id": "INT-006",
+                "text": "Assess medication compliance and barriers to adherence",
+                "frequency": "Every visit"
+              },
+              {
+                "int_id": "INT-007",
+                "text": "Provide written medication list to patient/caregiver",
+                "frequency": "PRN"
+              }
+            ]
+          },
+          {
+            "ps_id": "PS-003",
+            "pathway": "Diabetes Management",
+            "problem": "Alteration in glucose metabolism",
+            "goals": [
+              {
+                "goal_id": "G-004",
+                "text": "Patient will maintain blood glucose 80-180 mg/dL",
+                "target_date": "2025-03-15",
+                "status": "in_progress"
+              }
+            ],
+            "interventions": [
+              {
+                "int_id": "INT-008",
+                "text": "Assess blood glucose as ordered",
+                "frequency": "PRN"
+              },
+              {
+                "int_id": "INT-009",
+                "text": "Reinforce diabetic diet teaching",
+                "frequency": "PRN"
+              }
+            ]
+          }
+        ]
+      },
+      "visits": [
+        {
+          "visit_id": "V-20250115-001",
+          "service_code": "SN00",
+          "service_code_description": "Start of Care",
+          "date": "2025-01-15",
+          "clinician": {
+            "name": "Stacey Thompson, RN",
+            "id": "STH-001"
+          },
+          "time_in": "09:15",
+          "time_out": "11:45",
+          "status": "completed",
+          "vitals": {
+            "blood_pressure_systolic": 142,
+            "blood_pressure_diastolic": 88,
+            "heart_rate": 82,
+            "respiratory_rate": 18,
+            "temperature": 98.4,
+            "temperature_unit": "F",
+            "oxygen_saturation": 95,
+            "weight": 172.4,
+            "weight_unit": "lbs",
+            "pain_level": 2
+          },
+          "assessment_summary": {
+            "cardiovascular": "S1S2 regular rate. +1 bilateral pedal edema. No JVD. Denies chest pain.",
+            "respiratory": "Lungs diminished bilateral bases. No adventitious sounds. Denies SOB at rest.",
+            "integumentary": "Skin intact. No wounds or pressure areas noted.",
+            "neurological": "Alert and oriented x4. Appropriate affect.",
+            "overall": "80 y/o female admitted for CHF management following recent hospitalization. Patient and caregiver receptive to teaching."
+          },
+          "interventions_provided": [
+            "INT-001",
+            "INT-002",
+            "INT-003",
+            "INT-004",
+            "INT-005",
+            "INT-007"
+          ],
+          "goals_addressed": [
+            {
+              "goal_id": "G-001",
+              "status": "in_progress",
+              "notes": "Baseline weight established at 172.4 lbs. Dry weight goal 165 lbs."
+            },
+            {
+              "goal_id": "G-002",
+              "status": "in_progress",
+              "notes": "Began teaching on CHF symptoms. Patient verbalized 1 symptom (weight gain)."
+            }
+          ],
+          "coordination_notes": [
+            {
+              "type": "Clinical",
+              "content": "SOC completed. Patient appropriate for home health services. Caregiver present and engaged in teaching.",
+              "author": "Stacey Thompson, RN"
+            }
+          ],
+          "next_visit_scheduled": "2025-01-17"
+        },
+        {
+          "visit_id": "V-20250117-001",
+          "service_code": "SN11",
+          "service_code_description": "Subsequent Visit",
+          "date": "2025-01-17",
+          "clinician": {
+            "name": "Stacey Thompson, RN",
+            "id": "STH-001"
+          },
+          "time_in": "10:00",
+          "time_out": "10:45",
+          "status": "completed",
+          "vitals": {
+            "blood_pressure_systolic": 138,
+            "blood_pressure_diastolic": 82,
+            "heart_rate": 76,
+            "respiratory_rate": 16,
+            "temperature": 98.2,
+            "temperature_unit": "F",
+            "oxygen_saturation": 96,
+            "weight": 170.2,
+            "weight_unit": "lbs",
+            "pain_level": 1
+          },
+          "assessment_summary": {
+            "cardiovascular": "S1S2 regular rate. Trace bilateral pedal edema, improved from SOC. No JVD.",
+            "respiratory": "Lungs clear bilateral bases. Improved from SOC.",
+            "overall": "Weight down 2.2 lbs from SOC. Patient reports feeling better, less SOB with activity. Taking all medications as prescribed."
+          },
+          "interventions_provided": [
+            "INT-001",
+            "INT-002",
+            "INT-005",
+            "INT-006"
+          ],
+          "goals_addressed": [
+            {
+              "goal_id": "G-001",
+              "status": "in_progress",
+              "notes": "Weight 170.2 lbs, down 2.2 lbs. Trending toward goal."
+            },
+            {
+              "goal_id": "G-002",
+              "status": "in_progress",
+              "notes": "Patient now verbalizes 2 symptoms: weight gain and swelling."
+            },
+            {
+              "goal_id": "G-003",
+              "status": "in_progress",
+              "notes": "Reviewed Furosemide and Potassium today. Patient demonstrates understanding."
+            }
+          ],
+          "next_visit_scheduled": "2025-01-20"
+        },
+        {
+          "visit_id": "V-20250120-001",
+          "service_code": "SN11",
+          "service_code_description": "Subsequent Visit",
+          "date": "2025-01-20",
+          "clinician": {
+            "name": "Stacey Thompson, RN",
+            "id": "STH-001"
+          },
+          "time_in": "09:30",
+          "time_out": "10:20",
+          "status": "completed",
+          "vitals": {
+            "blood_pressure_systolic": 134,
+            "blood_pressure_diastolic": 78,
+            "heart_rate": 72,
+            "respiratory_rate": 16,
+            "temperature": 98.0,
+            "temperature_unit": "F",
+            "oxygen_saturation": 97,
+            "weight": 168.6,
+            "weight_unit": "lbs",
+            "pain_level": 0
+          },
+          "assessment_summary": {
+            "cardiovascular": "S1S2 regular rate. No edema. No JVD.",
+            "respiratory": "Lungs clear throughout.",
+            "overall": "Continued improvement. Weight approaching dry weight. Patient compliant with low sodium diet and fluid restriction."
+          },
+          "interventions_provided": [
+            "INT-001",
+            "INT-002",
+            "INT-005",
+            "INT-009"
+          ],
+          "goals_addressed": [
+            {
+              "goal_id": "G-001",
+              "status": "in_progress",
+              "notes": "Weight 168.6 lbs. 3.6 lbs from dry weight goal."
+            },
+            {
+              "goal_id": "G-002",
+              "status": "met",
+              "notes": "Patient verbalizes 3 symptoms: weight gain, swelling, SOB. GOAL MET."
+            }
+          ],
+          "coordination_notes": [
+            {
+              "type": "Physician Communication",
+              "content": "Called Dr. Chen's office to report patient progress. Advised to continue current plan.",
+              "author": "Stacey Thompson, RN"
+            }
+          ],
+          "next_visit_scheduled": "2025-01-22"
+        },
+        {
+          "visit_id": "V-20260102-004",
+          "service_code": "SN00",
+          "service_code_description": "Start of Care",
+          "date": "2026-01-02",
+          "clinician": {
+            "id": "STH-001",
+            "name": "Stacey Thompson, RN"
+          },
+          "time_in": "03:48",
+          "time_out": "03:48",
+          "status": "completed",
+          "vitals": {
+            "temperature": 98.6,
+            "blood_pressure_systolic": 132,
+            "blood_pressure_diastolic": 78,
+            "pulse": 76,
+            "respiratory_rate": 18,
+            "oxygen_saturation": 95,
+            "weight_lbs": 168
+          },
+          "assessment_summary": {},
+          "interventions_provided": [],
+          "goals_addressed": [],
+          "coordination_notes": [],
+          "next_visit_scheduled": null
+        }
+      ],
+      "alerts": [
+        {
+          "type": "clinical",
+          "priority": "high",
+          "message": "Daily weight required per CHF protocol",
+          "active": true
+        },
+        {
+          "type": "safety",
+          "priority": "medium",
+          "message": "Fall precautions - use walker for ambulation",
+          "active": true
+        }
+      ],
+      "physician_protocols": [
+        {
+          "protocol": "CHF Weight Monitoring",
+          "instructions": "Call MD if weight gain >2 lbs in 1 day or >5 lbs in 1 week",
+          "physician": "Dr. Sarah Chen",
+          "date": "2025-01-15"
+        },
+        {
+          "protocol": "Vital Sign Parameters",
+          "instructions": "Call MD if BP >160/100 or <90/60, HR >100 or <50, O2 Sat <92%",
+          "physician": "Dr. Sarah Chen",
+          "date": "2025-01-15"
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-10002",
+      "demographics": {
+        "first_name": "Harold",
+        "last_name": "Jenkins",
+        "preferred_name": "Harry",
+        "dob": "1938-11-22",
+        "age": 86,
+        "gender": "M",
+        "ssn_last_four": "7893",
+        "address": {
+          "street": "1520 Oak Hill Drive",
+          "unit": "Apt 4B",
+          "city": "Nashville",
+          "state": "TN",
+          "zip": "37215",
+          "county": "Davidson",
+          "directions": "Apartment complex on right. Building 4 in back. Buzz apt 4B."
+        },
+        "phone_home": "615-555-0234",
+        "language": "English",
+        "marital_status": "Married",
+        "emergency_contact": {
+          "name": "Dorothy Jenkins",
+          "relationship": "Wife",
+          "phone": "615-555-0234",
+          "is_poa": true,
+          "is_caregiver": true
+        }
+      },
+      "insurance": {
+        "primary": {
+          "payer": "Medicare",
+          "plan": "Medicare Part A",
+          "member_id": "2HJ8-KL9-PQ42"
+        },
+        "secondary": null
+      },
+      "episode": {
+        "episode_id": "EP-2025-0118",
+        "soc_date": "2025-01-18",
+        "certification_period": {
+          "start": "2025-01-18",
+          "end": "2025-03-18"
+        },
+        "referral_source": "TriStar Centennial Medical Center",
+        "referring_physician": {
+          "name": "Dr. Michael Roberts",
+          "npi": "0987654321",
+          "phone": "615-555-4000",
+          "specialty": "Orthopedic Surgery"
+        },
+        "admission_reason": "Right total knee replacement",
+        "status": "active"
+      },
+      "diagnoses": [
+        {
+          "icd10": "Z96.651",
+          "description": "Presence of right artificial knee joint",
+          "onset_type": "onset",
+          "onset_date": "2025-01-16",
+          "is_primary": true,
+          "is_treated": true
+        },
+        {
+          "icd10": "M17.11",
+          "description": "Primary osteoarthritis, right knee",
+          "onset_type": "onset",
+          "onset_date": "2022-01-01",
+          "is_primary": false,
+          "is_treated": true
+        },
+        {
+          "icd10": "I10",
+          "description": "Essential (primary) hypertension",
+          "onset_type": "onset",
+          "onset_date": "2010-05-01",
+          "is_primary": false,
+          "is_treated": true
+        }
+      ],
+      "medications": [
+        {
+          "med_id": "MED-101",
+          "name": "Eliquis",
+          "dose": "2.5",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "BID",
+          "times": [
+            "08:00",
+            "20:00"
+          ],
+          "purpose": "Prevent blood clots",
+          "prescriber": "Dr. Michael Roberts",
+          "start_date": "2025-01-16",
+          "end_date": "2025-02-15",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-102",
+          "name": "Oxycodone",
+          "dose": "5",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "Q6H PRN",
+          "purpose": "Pain control",
+          "prescriber": "Dr. Michael Roberts",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-103",
+          "name": "Lisinopril",
+          "dose": "20",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "daily",
+          "times": [
+            "08:00"
+          ],
+          "purpose": "Blood pressure",
+          "prescriber": "Dr. James Wilson",
+          "status": "active"
+        },
+        {
+          "med_id": "MED-104",
+          "name": "Acetaminophen",
+          "dose": "650",
+          "unit": "mg",
+          "route": "PO",
+          "frequency": "Q6H",
+          "times": [
+            "06:00",
+            "12:00",
+            "18:00",
+            "00:00"
+          ],
+          "purpose": "Pain control",
+          "prescriber": "Dr. Michael Roberts",
+          "status": "active"
+        }
+      ],
+      "allergies": [
+        {
+          "allergen": "Codeine",
+          "reaction": "Nausea, vomiting",
+          "severity": "moderate"
+        }
+      ],
+      "care_plan": {
+        "poc_485": {
+          "verbal_soc_date": "2025-01-17",
+          "physician_signature_date": "2025-01-19",
+          "visit_frequency": {
+            "skilled_nursing": "3W1, 2W1, 1W2",
+            "pt": "3W2, 2W4"
+          },
+          "nutritional_requirements": "Regular diet, encourage protein for healing",
+          "functional_limitations": [
+            "Ambulation",
+            "Transferring",
+            "Stairs"
+          ],
+          "activities_permitted": [
+            "WBAT R leg with walker",
+            "Exercise per PT"
+          ],
+          "mental_status": [
+            "Oriented",
+            "Alert"
+          ],
+          "prognosis": "Good",
+          "safety_measures": [
+            "Fall precautions",
+            "Use walker at all times",
+            "DVT precautions"
+          ],
+          "discharge_plans": "Discharge when independent with ambulation and ADLs"
+        },
+        "problem_statements": [
+          {
+            "ps_id": "PS-101",
+            "pathway": "Post-Surgical Care",
+            "problem": "Impaired mobility related to right TKR",
+            "goals": [
+              {
+                "goal_id": "G-101",
+                "text": "Patient will ambulate 150 feet with walker independently",
+                "target_date": "2025-02-28",
+                "status": "in_progress"
+              }
+            ],
+            "interventions": [
+              {
+                "int_id": "INT-101",
+                "text": "Assess surgical site for signs of infection",
+                "frequency": "Every visit"
+              },
+              {
+                "int_id": "INT-102",
+                "text": "Monitor for signs/symptoms of DVT",
+                "frequency": "Every visit"
+              },
+              {
+                "int_id": "INT-103",
+                "text": "Reinforce PT exercises and precautions",
+                "frequency": "Every visit"
+              }
+            ]
+          },
+          {
+            "ps_id": "PS-102",
+            "pathway": "Pain Management",
+            "problem": "Acute pain related to surgical procedure",
+            "goals": [
+              {
+                "goal_id": "G-102",
+                "text": "Patient will report pain level 4 or less on 0-10 scale",
+                "target_date": "2025-02-15",
+                "status": "in_progress"
+              }
+            ],
+            "interventions": [
+              {
+                "int_id": "INT-104",
+                "text": "Assess pain level using 0-10 scale",
+                "frequency": "Every visit"
+              },
+              {
+                "int_id": "INT-105",
+                "text": "Instruct on non-pharmacological pain management (ice, elevation)",
+                "frequency": "PRN"
+              }
+            ]
+          }
+        ]
+      },
+      "wounds": [
+        {
+          "wound_id": "W-001",
+          "type": "Surgical incision",
+          "location": "Right knee - anterior",
+          "onset_date": "2025-01-16",
+          "status": "active",
+          "measurements": {
+            "length_cm": 18.0,
+            "width_cm": 0.3,
+            "depth_cm": 0.0
+          },
+          "characteristics": {
+            "edges": "Approximated with staples",
+            "drainage": "Minimal serous",
+            "periwound": "Mild ecchymosis, no erythema"
+          },
+          "wound_care_order": "Assess surgical incision. Keep clean and dry. Staples to be removed by surgeon at 2-week follow-up.",
+          "last_assessment_date": "2025-01-20"
+        }
+      ],
+      "visits": [
+        {
+          "visit_id": "V-20250118-002",
+          "service_code": "SN00",
+          "service_code_description": "Start of Care",
+          "date": "2025-01-18",
+          "clinician": {
+            "name": "Stacey Thompson, RN",
+            "id": "STH-001"
+          },
+          "time_in": "14:00",
+          "time_out": "16:30",
+          "status": "completed",
+          "vitals": {
+            "blood_pressure_systolic": 148,
+            "blood_pressure_diastolic": 86,
+            "heart_rate": 88,
+            "respiratory_rate": 18,
+            "temperature": 99.1,
+            "temperature_unit": "F",
+            "oxygen_saturation": 96,
+            "weight": 195.0,
+            "weight_unit": "lbs",
+            "pain_level": 6
+          },
+          "assessment_summary": {
+            "cardiovascular": "S1S2 regular rate. Pedal pulses present bilateral. Right leg with expected post-op swelling.",
+            "respiratory": "Lungs clear throughout.",
+            "integumentary": "Right knee incision well-approximated with staples. Mild serous drainage. Surrounding ecchymosis expected. No erythema or warmth.",
+            "neurological": "Alert and oriented x4. Follows commands appropriately.",
+            "overall": "86 y/o male POD#2 right TKR. Wife is primary caregiver and present for all teaching. PT scheduled to start tomorrow."
+          },
+          "wound_care_provided": "Assessed surgical incision. Clean, dry, intact with staples. Teaching provided to wife on signs of infection.",
+          "interventions_provided": [
+            "INT-101",
+            "INT-102",
+            "INT-104",
+            "INT-105"
+          ],
+          "next_visit_scheduled": "2025-01-20"
+        },
+        {
+          "visit_id": "V-20250120-002",
+          "service_code": "SN11",
+          "service_code_description": "Subsequent Visit",
+          "date": "2025-01-20",
+          "clinician": {
+            "name": "Stacey Thompson, RN",
+            "id": "STH-001"
+          },
+          "time_in": "11:00",
+          "time_out": "11:50",
+          "status": "completed",
+          "vitals": {
+            "blood_pressure_systolic": 138,
+            "blood_pressure_diastolic": 82,
+            "heart_rate": 78,
+            "respiratory_rate": 16,
+            "temperature": 98.4,
+            "temperature_unit": "F",
+            "oxygen_saturation": 97,
+            "pain_level": 4
+          },
+          "assessment_summary": {
+            "cardiovascular": "S1S2 regular. Homan's sign negative bilateral. Right leg swelling decreased.",
+            "respiratory": "Lungs clear.",
+            "integumentary": "Right knee incision healing well. No signs of infection. Staples intact.",
+            "overall": "Improved from SOC. Pain better controlled. Tolerating PT well. Ambulating 50 feet with walker."
+          },
+          "wound_care_provided": "Assessed surgical incision. Healing well. No signs of infection.",
+          "interventions_provided": [
+            "INT-101",
+            "INT-102",
+            "INT-103",
+            "INT-104"
+          ],
+          "goals_addressed": [
+            {
+              "goal_id": "G-101",
+              "status": "in_progress",
+              "notes": "Ambulating 50 feet with walker. Progressing well."
+            },
+            {
+              "goal_id": "G-102",
+              "status": "in_progress",
+              "notes": "Pain 4/10, improved from 6/10 at SOC."
+            }
+          ],
+          "next_visit_scheduled": "2025-01-22"
+        }
+      ],
+      "alerts": [
+        {
+          "type": "clinical",
+          "priority": "high",
+          "message": "On anticoagulation - monitor for bleeding",
+          "active": true
+        },
+        {
+          "type": "safety",
+          "priority": "high",
+          "message": "Fall precautions - use walker at all times",
+          "active": true
+        },
+        {
+          "type": "clinical",
+          "priority": "medium",
+          "message": "DVT precautions - monitor for calf tenderness, swelling, warmth",
+          "active": true
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "updated_at": "2026-01-02T03:48:07.243543",
+    "description": "Mock patient data for Ratchet EMR Demo"
+  }
+}

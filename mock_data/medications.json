@@ -1,0 +1,193 @@
+{
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "class": "ACE Inhibitor",
+      "common_doses": ["2.5 mg", "5 mg", "10 mg", "20 mg", "40 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily", "BID"],
+      "purposes": ["Blood pressure", "Heart protection", "CHF management"],
+      "common_side_effects": ["Dry cough", "Dizziness", "Hyperkalemia"],
+      "monitoring": ["Blood pressure", "Potassium level", "Renal function"]
+    },
+    {
+      "name": "Furosemide",
+      "class": "Loop Diuretic",
+      "common_doses": ["20 mg", "40 mg", "80 mg"],
+      "routes": ["PO", "IV"],
+      "frequencies": ["daily", "BID"],
+      "purposes": ["Remove excess fluid", "CHF management", "Edema"],
+      "common_side_effects": ["Electrolyte imbalance", "Dehydration", "Dizziness"],
+      "monitoring": ["Weight", "Electrolytes", "Blood pressure"]
+    },
+    {
+      "name": "Metformin",
+      "class": "Biguanide",
+      "common_doses": ["500 mg", "850 mg", "1000 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily", "BID", "TID"],
+      "purposes": ["Blood sugar control", "Type 2 diabetes"],
+      "common_side_effects": ["GI upset", "Diarrhea", "Lactic acidosis (rare)"],
+      "monitoring": ["Blood glucose", "HbA1c", "Renal function"]
+    },
+    {
+      "name": "Metoprolol Succinate ER",
+      "class": "Beta Blocker",
+      "common_doses": ["25 mg", "50 mg", "100 mg", "200 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily"],
+      "purposes": ["Heart rate control", "Blood pressure", "CHF management"],
+      "common_side_effects": ["Fatigue", "Bradycardia", "Dizziness"],
+      "monitoring": ["Heart rate", "Blood pressure"]
+    },
+    {
+      "name": "Aspirin",
+      "class": "Antiplatelet",
+      "common_doses": ["81 mg", "325 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily"],
+      "purposes": ["Heart protection", "Stroke prevention", "Antiplatelet"],
+      "common_side_effects": ["GI upset", "Bleeding risk"],
+      "monitoring": ["Signs of bleeding"]
+    },
+    {
+      "name": "Potassium Chloride",
+      "class": "Electrolyte Supplement",
+      "common_doses": ["10 mEq", "20 mEq", "40 mEq"],
+      "routes": ["PO"],
+      "frequencies": ["daily", "BID"],
+      "purposes": ["Potassium replacement", "Diuretic-induced hypokalemia"],
+      "common_side_effects": ["GI upset", "Hyperkalemia"],
+      "monitoring": ["Potassium level"]
+    },
+    {
+      "name": "Eliquis (Apixaban)",
+      "class": "Direct Oral Anticoagulant (DOAC)",
+      "common_doses": ["2.5 mg", "5 mg"],
+      "routes": ["PO"],
+      "frequencies": ["BID"],
+      "purposes": ["Prevent blood clots", "DVT prophylaxis", "AFib stroke prevention"],
+      "common_side_effects": ["Bleeding", "Bruising"],
+      "monitoring": ["Signs of bleeding", "Bruising"]
+    },
+    {
+      "name": "Oxycodone",
+      "class": "Opioid Analgesic",
+      "common_doses": ["5 mg", "10 mg", "15 mg", "20 mg"],
+      "routes": ["PO"],
+      "frequencies": ["Q4H PRN", "Q6H PRN"],
+      "purposes": ["Pain control", "Post-surgical pain"],
+      "common_side_effects": ["Constipation", "Sedation", "Nausea", "Respiratory depression"],
+      "monitoring": ["Pain level", "Sedation", "Respiratory status", "Constipation"]
+    },
+    {
+      "name": "Acetaminophen",
+      "class": "Non-Opioid Analgesic",
+      "common_doses": ["325 mg", "500 mg", "650 mg", "1000 mg"],
+      "routes": ["PO", "PR"],
+      "frequencies": ["Q4H", "Q6H", "PRN"],
+      "purposes": ["Pain control", "Fever reduction"],
+      "common_side_effects": ["Liver toxicity (high doses)"],
+      "monitoring": ["Liver function (if chronic use)"],
+      "max_daily_dose": "4000 mg"
+    },
+    {
+      "name": "Amlodipine",
+      "class": "Calcium Channel Blocker",
+      "common_doses": ["2.5 mg", "5 mg", "10 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily"],
+      "purposes": ["Blood pressure", "Angina"],
+      "common_side_effects": ["Peripheral edema", "Dizziness", "Flushing"],
+      "monitoring": ["Blood pressure", "Peripheral edema"]
+    },
+    {
+      "name": "Atorvastatin",
+      "class": "Statin",
+      "common_doses": ["10 mg", "20 mg", "40 mg", "80 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily (usually at bedtime)"],
+      "purposes": ["Cholesterol management", "Cardiovascular protection"],
+      "common_side_effects": ["Muscle pain", "Liver enzyme elevation"],
+      "monitoring": ["Lipid panel", "Liver function", "Muscle pain"]
+    },
+    {
+      "name": "Warfarin",
+      "class": "Anticoagulant",
+      "common_doses": ["1 mg", "2 mg", "2.5 mg", "3 mg", "4 mg", "5 mg", "7.5 mg", "10 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily"],
+      "purposes": ["Prevent blood clots", "AFib stroke prevention", "DVT/PE treatment"],
+      "common_side_effects": ["Bleeding", "Bruising"],
+      "monitoring": ["INR", "Signs of bleeding"],
+      "special_notes": "Requires regular INR monitoring. Many drug and food interactions."
+    },
+    {
+      "name": "Gabapentin",
+      "class": "Anticonvulsant/Neuropathic Pain Agent",
+      "common_doses": ["100 mg", "300 mg", "400 mg", "600 mg", "800 mg"],
+      "routes": ["PO"],
+      "frequencies": ["TID"],
+      "purposes": ["Neuropathic pain", "Seizures"],
+      "common_side_effects": ["Dizziness", "Sedation", "Peripheral edema"],
+      "monitoring": ["Sedation level", "Renal function"]
+    },
+    {
+      "name": "Omeprazole",
+      "class": "Proton Pump Inhibitor (PPI)",
+      "common_doses": ["20 mg", "40 mg"],
+      "routes": ["PO"],
+      "frequencies": ["daily", "BID"],
+      "purposes": ["GERD", "Gastric ulcer prevention", "GI protection"],
+      "common_side_effects": ["Headache", "Diarrhea", "B12 deficiency (long-term)"],
+      "monitoring": ["GI symptoms"]
+    },
+    {
+      "name": "Levothyroxine",
+      "class": "Thyroid Hormone",
+      "common_doses": ["25 mcg", "50 mcg", "75 mcg", "88 mcg", "100 mcg", "112 mcg", "125 mcg"],
+      "routes": ["PO"],
+      "frequencies": ["daily (on empty stomach)"],
+      "purposes": ["Hypothyroidism"],
+      "common_side_effects": ["Palpitations", "Weight changes", "Heat intolerance"],
+      "monitoring": ["TSH level"],
+      "special_notes": "Take on empty stomach 30-60 min before breakfast"
+    }
+  ],
+  "routes": [
+    {"code": "PO", "description": "By mouth"},
+    {"code": "IV", "description": "Intravenous"},
+    {"code": "IM", "description": "Intramuscular"},
+    {"code": "SQ", "description": "Subcutaneous"},
+    {"code": "SL", "description": "Sublingual"},
+    {"code": "PR", "description": "Rectal"},
+    {"code": "TOP", "description": "Topical"},
+    {"code": "INH", "description": "Inhalation"},
+    {"code": "OPH", "description": "Ophthalmic"},
+    {"code": "OT", "description": "Otic (ear)"},
+    {"code": "NAS", "description": "Nasal"},
+    {"code": "TD", "description": "Transdermal"}
+  ],
+  "frequencies": [
+    {"code": "daily", "description": "Once daily"},
+    {"code": "BID", "description": "Twice daily"},
+    {"code": "TID", "description": "Three times daily"},
+    {"code": "QID", "description": "Four times daily"},
+    {"code": "Q4H", "description": "Every 4 hours"},
+    {"code": "Q6H", "description": "Every 6 hours"},
+    {"code": "Q8H", "description": "Every 8 hours"},
+    {"code": "Q12H", "description": "Every 12 hours"},
+    {"code": "QHS", "description": "At bedtime"},
+    {"code": "QAM", "description": "Every morning"},
+    {"code": "QPM", "description": "Every evening"},
+    {"code": "PRN", "description": "As needed"},
+    {"code": "STAT", "description": "Immediately"},
+    {"code": "weekly", "description": "Once weekly"}
+  ],
+  "medication_statuses": [
+    "active",
+    "discontinued",
+    "on_hold",
+    "completed"
+  ]
+}

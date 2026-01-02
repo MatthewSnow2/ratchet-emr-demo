@@ -1,0 +1,196 @@
+{
+  "icd10_codes": [
+    {
+      "code": "I50.9",
+      "description": "Heart failure, unspecified",
+      "category": "Cardiovascular",
+      "common_in_home_health": true
+    },
+    {
+      "code": "I50.20",
+      "description": "Unspecified systolic (congestive) heart failure",
+      "category": "Cardiovascular",
+      "common_in_home_health": true
+    },
+    {
+      "code": "I50.30",
+      "description": "Unspecified diastolic (congestive) heart failure",
+      "category": "Cardiovascular",
+      "common_in_home_health": true
+    },
+    {
+      "code": "I10",
+      "description": "Essential (primary) hypertension",
+      "category": "Cardiovascular",
+      "common_in_home_health": true
+    },
+    {
+      "code": "I25.10",
+      "description": "Atherosclerotic heart disease of native coronary artery",
+      "category": "Cardiovascular",
+      "common_in_home_health": true
+    },
+    {
+      "code": "I48.91",
+      "description": "Unspecified atrial fibrillation",
+      "category": "Cardiovascular",
+      "common_in_home_health": true
+    },
+    {
+      "code": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications",
+      "category": "Endocrine",
+      "common_in_home_health": true
+    },
+    {
+      "code": "E11.65",
+      "description": "Type 2 diabetes mellitus with hyperglycemia",
+      "category": "Endocrine",
+      "common_in_home_health": true
+    },
+    {
+      "code": "E11.21",
+      "description": "Type 2 diabetes mellitus with diabetic nephropathy",
+      "category": "Endocrine",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z96.651",
+      "description": "Presence of right artificial knee joint",
+      "category": "Musculoskeletal/Post-surgical",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z96.652",
+      "description": "Presence of left artificial knee joint",
+      "category": "Musculoskeletal/Post-surgical",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z96.641",
+      "description": "Presence of right artificial hip joint",
+      "category": "Musculoskeletal/Post-surgical",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z96.642",
+      "description": "Presence of left artificial hip joint",
+      "category": "Musculoskeletal/Post-surgical",
+      "common_in_home_health": true
+    },
+    {
+      "code": "M17.11",
+      "description": "Primary osteoarthritis, right knee",
+      "category": "Musculoskeletal",
+      "common_in_home_health": true
+    },
+    {
+      "code": "M17.12",
+      "description": "Primary osteoarthritis, left knee",
+      "category": "Musculoskeletal",
+      "common_in_home_health": true
+    },
+    {
+      "code": "M16.11",
+      "description": "Primary osteoarthritis, right hip",
+      "category": "Musculoskeletal",
+      "common_in_home_health": true
+    },
+    {
+      "code": "J44.1",
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "category": "Respiratory",
+      "common_in_home_health": true
+    },
+    {
+      "code": "J44.9",
+      "description": "Chronic obstructive pulmonary disease, unspecified",
+      "category": "Respiratory",
+      "common_in_home_health": true
+    },
+    {
+      "code": "J18.9",
+      "description": "Pneumonia, unspecified organism",
+      "category": "Respiratory",
+      "common_in_home_health": true
+    },
+    {
+      "code": "L89.91",
+      "description": "Pressure ulcer of unspecified site, stage 1",
+      "category": "Integumentary",
+      "common_in_home_health": true
+    },
+    {
+      "code": "L89.92",
+      "description": "Pressure ulcer of unspecified site, stage 2",
+      "category": "Integumentary",
+      "common_in_home_health": true
+    },
+    {
+      "code": "L89.93",
+      "description": "Pressure ulcer of unspecified site, stage 3",
+      "category": "Integumentary",
+      "common_in_home_health": true
+    },
+    {
+      "code": "L89.94",
+      "description": "Pressure ulcer of unspecified site, stage 4",
+      "category": "Integumentary",
+      "common_in_home_health": true
+    },
+    {
+      "code": "I63.9",
+      "description": "Cerebral infarction, unspecified",
+      "category": "Neurological",
+      "common_in_home_health": true
+    },
+    {
+      "code": "G30.9",
+      "description": "Alzheimer's disease, unspecified",
+      "category": "Neurological",
+      "common_in_home_health": true
+    },
+    {
+      "code": "R26.81",
+      "description": "Unsteadiness on feet",
+      "category": "General",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z87.39",
+      "description": "Personal history of other diseases of the musculoskeletal system and connective tissue",
+      "category": "History",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z79.01",
+      "description": "Long term (current) use of anticoagulants",
+      "category": "Medication Status",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z79.4",
+      "description": "Long term (current) use of insulin",
+      "category": "Medication Status",
+      "common_in_home_health": true
+    },
+    {
+      "code": "Z48.812",
+      "description": "Encounter for surgical aftercare following surgery on the circulatory system",
+      "category": "Post-surgical",
+      "common_in_home_health": true
+    }
+  ],
+  "symptom_control_ratings": [
+    "Asymptomatic",
+    "Symptoms well-controlled",
+    "Symptoms controlled with current plan",
+    "Symptoms not controlled - requires assessment",
+    "Symptoms not controlled - requires MD notification"
+  ],
+  "onset_types": [
+    "onset",
+    "exacerbation",
+    "recurrence"
+  ]
+}
